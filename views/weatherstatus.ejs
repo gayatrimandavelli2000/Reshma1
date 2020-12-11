@@ -1,0 +1,53 @@
+<!DOCTYPE HTML >
+<html lang="en-US" ><head>
+<title>Weather App</title>
+
+<style type='text/css'>
+
+    table td {
+      border-width: 1px;
+      padding: 8px;
+      border-style: solid;
+      border-color: #666666;
+    }
+    
+    table.vertical tr>td:first-child {
+      background-color: DarkBlue;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-variant: small-caps;
+      color: #fff;
+    }
+  
+    </style>
+  
+  
+</head>
+<html>
+<body>
+    <br><br><br><br>
+    <center>
+
+      <table class="vertical">
+        <tr>
+          <td colspan="2">Weather Status Info...</td>
+        </tr>
+        <tr>
+          <td>Latitude</td>
+          <td><%=latitude %></td>
+        </tr>
+
+        <tr>
+            <td>Longitude</td>
+            <td><%=longitude %></td>
+          </tr>
+
+          <tr>
+              <td>Temperature</td>
+              <td><%=temperature %></td>
+            </tr>
+      </table>
+</center>
+</body>
+</html>
+
